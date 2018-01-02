@@ -66,6 +66,7 @@ public class LibrarianDao {
 		return list;
 	}
 	public static LibrarianBean viewById(int id){
+		System.out.println("Librarian statement added");
 		LibrarianBean bean=new LibrarianBean();
 		try{
 			Connection con=DB.getCon();
